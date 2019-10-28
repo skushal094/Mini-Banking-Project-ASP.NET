@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="MiniProject.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="bootstrap-4.2.1-dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server" class="" method="post" autocomplete="off">
+        <div class="container-fluid">
+            <div class="row">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+        <footer class="py-4 myFooter">
+            <div class="container text-center">
+                <small>Copyright &copy; Kushal Shah</small>
+            </div>
+        </footer>
+    </form>
+</body>
+</html>
